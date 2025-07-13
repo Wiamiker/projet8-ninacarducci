@@ -6117,9 +6117,7 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   padding: 0;
-  margin-right: 15%;
-  margin-bottom: 1rem;
-  margin-left: 15%;
+  background-color: #414845;
   list-style: none;
 }
 .carousel-indicators [data-bs-target] {

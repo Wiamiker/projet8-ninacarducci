@@ -1,8 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<!--Schema.org-->
+	<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Nina Carducci",
+      "url": "https://www.votresite.com",
+      "logo": "https://www.votresite.com/assets/images/logo.png",
+      "description": "Photographe professionnelle spécialisée dans les portraits, les événements et les images authentiques, au service des particuliers et des entreprises.",
+      "address": {
+        "@type": "PostalAddress",
+		"streetAddress": "68 avenue Alsace-Lorraine",
+    	"addressLocality": "Bordeaux",
+    	"postalCode": "33200",
+        "addressCountry": "FR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+		 "telephone": "+33-5-56-67-78-89.",
+        "contactType": "customer service",
+        "areaServed": "FR"
+      },
+      "sameAs": [
+        "https://www.instagram.com/ninacarducci.photo/"
+      ]
+    }
+    </script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Nina Carducci - Photographe</title>
+	<!--Metadonnee-->
+	 <meta name="description" content="Photographe professionnelle passionnée, spécialisée dans les portraits, les événements et les images naturelles. Basée en France, disponible pour particuliers et entreprises.">
+    <meta name="keywords" content="photo, album, portrait, mariage, entreprise, événement, Nina Carducci, France">
+    <meta name="author" content="Nina Carducci">
+    <meta name="robots" content="index, follow">
+	<!--Open graph-->
+	    <meta property="og:title" content="Nina Carducci - Photographe professionnelle">
+    <meta property="og:description" content="Photographe spécialisée dans les portraits et les événements. Découvrez mon univers visuel.">
+    <meta property="og:url" content="https://wiamiker.github.io/projet8-ninacarducci/">
+    <meta property="og:type" content="website">
+
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +103,7 @@
 
 <section id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.png" alt="Portrait de Nina Carducci">
+		<img src="./assets/images/portrait-nina.png" alt="Portrait de Nina Carducci">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -81,15 +119,15 @@
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/photo-concert.jpg" />
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/portrait-businessman.jpg" />
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-souriante-reunion-travail.jpg"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/portrait-mains.jpg"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-homme.jpg"/>
+			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/portrait-maries.jpg"/>
+			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/portrait-jeune-femme.jpg"/>
+			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/portrait-chanteur-concert.jpg"/>
+			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/femme-souriante-bureau-ordinateur.jpg"/>
 		</div>
 	</div>
 	<!--Citation-->
@@ -170,7 +208,7 @@
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.png" alt="Appareil photo">
+			<img src="./assets/images/camera-min.png" alt="Appareil photo">
 		</div>
 	</div>
 </section>
@@ -185,7 +223,7 @@
       </address>
       <div class="footer-social">
         <a href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Instagram de Nina Carducci">
-          <img src="assets/images/instagram.png" alt="Instagram">
+          <img src="assets/images/instagram.png" alt=" Logo d'instagram">
         </a>
       </div>
       <div class="legal">
