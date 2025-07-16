@@ -48,6 +48,12 @@ body {
 	width: 20px;
 }
 
+.carousel-item img {
+  max-height: 800px;
+  object-fit: cover;
+  width: 100%;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
