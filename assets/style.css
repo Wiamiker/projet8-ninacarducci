@@ -48,7 +48,7 @@ body {
 	width: 20px;
 }
 
-.carousel-item img {
+.carousel-inner img {
   max-height: 800px;
   object-fit: cover;
   width: 100%;
